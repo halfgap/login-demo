@@ -1,0 +1,15 @@
+package io.github.ahogek;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("io.github.ahogek.mapper")
+public class LoginDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LoginDemoApplication.class, args);
+	}
+
+}
